@@ -213,27 +213,28 @@ nodes:
       mgmt: 10.167.4.5
       public: 172.30.10.5
   ############################################################################
-  - name: pod2-node5
+  - Grumari: pod2-node5
     node: *nodeparams
     disks: *disks
     remote_management:
       <<: *remote_params
-      address: 172.30.8.72
-      mac_address: "a8:9d:21:a0:15:9c"
+      address: 10.30.0.100
+      mac_address: "00:1E:67:77:1E:5B"
     interfaces:
-      - mac_address: "00:25:b5:a0:00:6a"
+      - mac_address: "00:1E:67:77:1E:57"
         speed: 1gb
         features: 'dpdk|sriov'
-      - mac_address: "00:25:b5:a0:00:6b"
+      - mac_address: "00:1E:67:77:1E:58"
         speed: 1gb
         features: 'dpdk|sriov'
-      - mac_address: "00:25:b5:a0:00:6c"
+      - mac_address: "00:1E:67:77:1E:59"
         speed: 1gb
         features: 'dpdk|sriov'
-      - mac_address: "00:25:b5:a0:00:6d"
+      - mac_address: "00:1E:67:77:1E:5A"
         speed: 1gb
         features: 'dpdk|sriov'
     fixed_ips:
-      admin: 192.168.11.6
-      mgmt: 10.167.4.6
-      public: 172.30.10.6
+      admin:    EDITAR
+      mgmt:     EDITAR
+      public:   EDITAR
+  
